@@ -1,0 +1,374 @@
+/*-----------------------------*/
+           /*FONTS */
+/*-----------------------------*/
+body,.btn
+{
+    font-family: Lato!important;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Poppins!important;
+    font-weight: 600;
+}
+.f-16
+{
+    font-size: 16px;
+}
+.f-14
+{
+    font-size: 14px;
+}
+.f-12
+{
+    font-size: 12px;
+}
+/*-----------------------------*/
+    /*Components - COLORS */
+/*-----------------------------*/
+.primary-color
+{
+    color: #231E60;
+}
+.secondary-color
+{
+    color: #3584CF;
+}
+.primary-black-color
+{
+    color: #000000;
+}
+.charcoal-black-color
+{
+    color: #333333;
+}
+.light-black-color
+{
+    color: #333333;
+}
+.light-gray-color
+{
+    color: #F8F8F8;
+}
+.golden-bg
+{
+    background: linear-gradient(#E2A50F, #F5EE48);
+}
+.sky-bg
+{
+    background-image: linear-gradient(#2471bc, #3584cf);
+}
+.primary-bg
+{
+    color: #231E60;
+}
+.secondary-bg
+{
+    color: #3584CF;
+}
+/*-----------------------------*/
+    /*Components - BUTTONS */
+/*-----------------------------*/
+.btn{
+    padding: 2px 30px!important;
+    border-radius: .2rem;
+    border: none;
+}
+.btn-primary,.btn-outline-primary:hover{
+    background-color: #231E60;    
+    color: #fff;    
+}
+.btn-primary:hover{
+    background-color: #1B1D94; 
+}
+.btn-secondary,.btn-outline-secondary:hover{
+    background-color: #3584CF;
+    color: #fff;
+}
+.btn-secondary:hover{
+    background-color: #3B91E3; 
+}
+.btn-tertiary,.btn-outline-tertiary:hover
+{
+    background-color: #F0CA1B;
+    color: #000;
+}
+.btn-outline-primary{
+    border: 1px solid #231E60;
+    color: #231E60;
+}
+.btn-outline-secondary{
+    border: 1px solid #3584CF;
+    color: #3584CF;
+}
+.btn-outline-tertiary
+{
+    border: 1px solid #F0CA1B;
+    color: #F0CA1B;
+}
+.btn-link-primary
+{
+    color: #231E60;
+}
+.btn-link-secondary
+{
+    color: #3584CF;
+}
+.radio-btn
+{
+    font-size: 16px;
+}
+.form-check-input:focus
+{
+background-color: #231E60;
+}
+/*-----------------------------*/
+    /*Components - SWITCH */
+/*-----------------------------*/
+.switch
+{
+    background-color: #F5F5FF;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.switch .nav-link
+{
+    color: #231E60;
+}
+.switch .nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background-color: #231E60!important;
+    color: #fff;
+}
+/*-----------------------------*/
+    /*Components - CHIPS */
+/*-----------------------------*/
+.chip
+{
+    background-color: #F5F5FF;
+    padding: 7px 14px;
+    border-radius: 50px;
+}
+/*-----------------------------*/
+    /*Components - TOOLTIP */
+/*-----------------------------*/
+.tooltip-right
+{
+
+}
+.tooltip-left
+{
+
+}
+.tooltip-top
+{
+
+}
+.tooltip-bottom
+{
+
+}
+/*-----------------------------*/
+    /*Components - ALERT */
+/*-----------------------------*/
+.alert-card
+{
+
+}
+.warning-card
+{
+
+}
+.info-card
+{
+
+}
+.success-card
+{
+    
+}
+/*-----------------------------*/
+  /*Components - PAGINATION */
+/*-----------------------------*/
+.pagination-circle .page-link {
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+.left-arrow,.right-arrow
+{
+    padding: 0px 12px;
+}
+.pagination .page-item.active .page-link
+{
+    background-color: #231E60;
+    border:1px solid #231E60;
+    color: #fff;
+}
+.pagination .page-item.active .page-link:hover
+{
+    background-color: #1B1D94;
+    border:1px solid #231E60;
+    color: #fff!important;
+}
+.pagination .page-link
+{
+    color: #231E60;
+}
+.pagination .page-link:hover
+{
+    color: #1B1D94!important;
+}
+.paginator-left
+{
+    
+}
+.paginator-right
+{
+    
+}
+/*-----------------------------*/
+  /*Components - SEARCH BOX*/
+/*-----------------------------*/
+.Search-btn-position
+{
+    position: absolute;
+    right: 20px;
+}
+.search-btn
+{
+
+}
+.search-icon
+{
+
+}
+/*-----------------------------*/
+  /*Components - HEADER*/
+/*-----------------------------*/
+#header
+{
+ z-index: 1000000!important;
+}
+#header nav ul li{
+
+}
+.top-navigation
+{
+
+}
+/*-----------------------------*/
+  /*Components - FOOTER*/
+/*-----------------------------*/
+#footer
+{
+
+}
+#footer ul li{
+
+}
+/*-----------------------------*/
+  /*Components - TABLE*/
+/*-----------------------------*/
+table
+{
+
+}
+table th
+{
+
+}
+table td
+{
+
+}
+/*-----------------------------*/
+  /*Components - BREADCRUMBS*/
+/*-----------------------------*/
+.breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 0.25rem;
+    content: "→";
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding: 10px!important;
+    color: var(--bs-breadcrumb-divider-color);
+    content: none!important;
+}
+.breadcrumb .breadcrumb-item a
+{
+ color: #3584CF!important;
+ text-decoration: none;
+ font-weight: 500!important;
+}
+.breadcrumb
+{
+ padding: 15px;
+ border-radius: 5px;
+ background-color: #F8F8F8!important;
+}
+li.breadcrumb-item
+{
+ padding: 5px!important;
+ font-weight: 500!important;
+}
+/*-----------------------------*/
+     /*Components - CARD*/
+/*-----------------------------*/
+.square-card
+{
+
+}
+.rectangular-card
+{
+    
+}
+.square-card:hover, .rectangular-card:hover
+{
+
+}
+/*-----------------------------*/
+   /*Components - ACCORDION*/
+/*-----------------------------*/
+.accordion
+{
+
+}
+.accordion-card
+{
+
+}
+/*-----------------------------*/
+    /*Components - PROGRESSBAR*/
+/*-----------------------------*/
+.progres-bar
+{
+
+}
+.progres-bar:hover
+{
+
+}
+.progres-bar:active
+{
+
+}
+/*-----------------------------*/
+    /*Components - INPUTBOX*/
+/*-----------------------------*/
+.input-textbox
+{
+
+}
+.success-textbox
+{
+
+}
+.error-textbox
+{
+
+}
+.disable-textbox
+{
+
+}
