@@ -1,3 +1,7 @@
+.w-100
+{
+    width: 100%;
+}
 /*-----------------------------*/
            /*FONTS */
 /*-----------------------------*/
@@ -232,7 +236,8 @@ background-color: #231E60;
 .Search-btn-position
 {
     position: absolute;
-    right: 20px;
+    right: 5px;
+    top: 5px;
 }
 .search-btn
 {
@@ -255,6 +260,21 @@ background-color: #231E60;
 .top-navigation
 {
 
+}
+.w3l-top-header .top-headers li a, .w3l-top-header .top-headers li {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.w3l-top-header .top-headers li {
+    display: inline-block;
+    margin: 0;
+    border-right: 1px solid #4964a4;
+    padding: 0 10px;
+    line-height: 39px;
+    float: left;
+    height: 40px;
 }
 /*-----------------------------*/
   /*Components - FOOTER*/

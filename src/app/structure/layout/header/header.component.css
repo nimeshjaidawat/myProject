@@ -305,6 +305,10 @@
 /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
+  .w3l-top-header {
+    background: #231e60;
+    padding: 0px 14px !important;
+}
 .hero {
   width: 100%;
   position: relative;
